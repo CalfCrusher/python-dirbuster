@@ -1,7 +1,7 @@
 import requests, sys
 
 if len(sys.argv) > 2 or len(sys.argv) < 2 :
-    sys.exit('Usage: %s sitename.com' % sys.argv[0])
+	sys.exit('Usage: %s sitename.com' % sys.argv[0])
 else:
 	site = sys.argv[1]
 correct_write = open("open_dirs.txt", "a")
